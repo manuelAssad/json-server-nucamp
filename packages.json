@@ -4,7 +4,10 @@
   "description": "Server for nucamp website",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "json-server --watch ./db.json"
+  },
+  "engines": {
+    "node": "12.x"
   },
   "keywords": ["json-server,heroku, node, REST API"],
   "author": "Manwel Assad",
