@@ -1,14 +1,15 @@
 {
-  "name": "fake-server",
+  "name": "nucamp-json-server",
   "version": "1.0.0",
-  "description": "fake server with fake database",
+  "description": "Server for nucamp website",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
+  "keywords": ["json-server,heroku, node, REST API"],
   "author": "Manwel Assad",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.16.3"
+    "json-server": "^0.17.0"
   }
 }
